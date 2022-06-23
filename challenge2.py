@@ -58,6 +58,7 @@ pd_agg_df = agg_df2.toPandas()
 pd_agg_df.to_csv(events_table_file_path + "_per_10_min." + "csv")
 
 spark.stop()
+logging.info("application completed successfully")
 #######################################
 # 1. I have tried little modularisation so that unit test cases can be written on specific modules.
 #    here we can write Unit test cases for all the transformation submodule. because of time constraint
