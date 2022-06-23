@@ -1,3 +1,4 @@
+-- utilisied Bigquery to run these queries
 WITH
   impressions AS (
   SELECT
